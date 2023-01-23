@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="./js/script.js"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Escolha sua cor RGB</title>
+</head>     
+<body>
+  <main>
+    <h1>
+      Escolha sua cor RGB:
+    </h1>
+
+    <label for="inputR">
+      <span><b>(R) - Vermelho:</b></span>
+      <input class="estilo" type="range" name="inputRangeR" id="inputRangeR" min="0" max="255" tabindex="1" class="inputRange" />
+      <input type="text" name="inputCodeR" id="inputCodeR" readonly class="viewCode" />
+    </label>
+
+    <label for="inputG">
+      <span><b>(G) - Verde:</b></span>
+      <input class="estilo" type="range" name="inputRangeG" id="inputRangeG" min="0" max="255" tabindex="2" class="inputRange" />
+      <input type="text" name="inputCodeG" id="inputCodeG" readonly class="viewCode" />
+    </label>
+
+    <label for="inputB">
+      <span><b>(B) - Azul:</b></span>
+      <input class="estilo" type="range" name="inputRangeB" id="inputRangeB" min="0" max="255" tabindex="3" class="inputRange" />
+      <input type="text" name="inputCodeB" id="inputCodeB" readonly class="viewCode" />
+    </label>
+
+    <div id="boxColorPreview"></div>
+    <Footer><b>Desenvolvido por: Jaqueline Alencar</b></Footer>
+  </main>
+  
+</body>
+</html>
